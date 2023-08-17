@@ -97,7 +97,7 @@
 
     return (
       <div className="form-container">
-        <form onSubmit={handleSubmit}>
+        <form className="form-wrapper" onSubmit={handleSubmit}>
           <div className="input-center">
             <div className="input-cont">
               <label className="label-name">Nombre de la receta: </label>
