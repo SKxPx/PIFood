@@ -103,7 +103,7 @@
               <label className="label-name">Nombre de la receta: </label>
               <input onChange={handlerChange} name="name" type="text" />
             </div>
-            <span>{errors.name}</span>
+            <span className="error-message">{errors.name}</span>
             <div className="input-cont">
               <label>Imagen: </label>
               <input onChange={handlerChange} name="image" type="text" />
@@ -112,22 +112,22 @@
               <label>Resumen de la receta: </label>
               <input onChange={handlerChange} name="summary" type="text" />
             </div>
-            <span>{errors.summary}</span>
+            <span className="error-message">{errors.summary}</span>
             <div className="input-cont">
               <label>Nivel de comida saludable: </label>
-              <input onChange={handlerChange} name="healthScore" type="text" />
+              <input onChange={handlerChange} name="healthScore" type="number" />
             </div>
-            <span>{errors.healthScore}</span>
+            <span className="error-message">{errors.healthScore}</span>
             <div className="input-cont">
               <label>Preparación paso a paso: </label>
               <input onChange={handlerChange} name="stepByStep" type="text" />
             </div>
-            <span>{errors.stepByStep}</span>
+            <span className="error-message">{errors.stepByStep}</span>
           </div>
-          <div>
-            <label>Tipo de Receta</label>
+          <div className="input-cont">
+            <label>Tipo de Receta: </label>
             {diets.map((diet, index) => (
-              <div key={index}>
+              <div className="checkbox-group " key={index}>
                 <input
                   type="checkbox"
                   value={diet.name}
@@ -137,9 +137,9 @@
                 {diet.name}
               </div>
             ))}
-            <span>{errors.diets}</span>
+            <span className="error-message">{errors.diets}</span>
           </div>
-          <button type="submit">
+          <button className="submit-button" type="submit">
             Enviar
           </button>
         </form>
