@@ -15,12 +15,13 @@ const getColorClass = (score) => {
 };
 
 const Card = (props) => {
+  console.log(props);
   const healthColorClass = getColorClass(props.healthScore);
   return (
     <Link className="card-link" to={`/details/${props.id}`}>
       <div className="card-container">
         <div className="card-details">
-          <img className="img-recipe" src={props.image} alt="imagenPlato" />
+          <img className="img-recipe" src={props.image} alt={props.image} />
           <div className="info">
             <div className="card-title">
               <h3>{props.name}</h3>

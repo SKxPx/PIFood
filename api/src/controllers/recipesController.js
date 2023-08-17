@@ -2,7 +2,6 @@ const { Recipes, Diets } = require("../db");
 const axios = require("axios");
 require("dotenv").config();
 const { Op } = require("sequelize");
-const data = require("../../../../foodComplexSearch.json");
 
 const { API_KEY } = process.env;
 
