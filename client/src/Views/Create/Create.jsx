@@ -90,10 +90,6 @@
     
       dispatch(postRecipe(recipeData));
     };
-    
-    
-    
-    
 
     return (
       <div className="form-container">
