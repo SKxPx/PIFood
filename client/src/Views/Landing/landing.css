@@ -1,0 +1,39 @@
+.landing-page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.start-button {
+  padding: 12px 24px;
+  font-size: 20px;
+  color: #4ff10f;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.start-button:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+}

@@ -1,0 +1,68 @@
+.card-container {
+  background-color: rgb(248, 245, 150);
+  border: solid 2px black;
+  border-radius: 15px;
+  margin: 1rem;
+  box-sizing: border-box; 
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid transparent; 
+  transition: border-color 0.3s; 
+}
+
+.card-link:hover {
+    border-color: #80007a; 
+}
+
+.card-title {
+  width: 90%;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+}
+
+.img-recipe {
+  width: 90%;
+  border-radius: 15px;
+  border: 2px solid #ddd; 
+  box-shadow: 0 2px 4px #04bd23;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+.card-details {
+  text-align: center;
+}
+.list {
+  list-style-type: none;
+}
+.card-divider {
+  height: 1px;
+  background-color: grey;
+}
+
+/* Estilos para el rango de 0-25 */
+.health-red {
+  color: #ff0000;
+}
+
+/* Estilos para el rango de 26-50 */
+.health-orange {
+  color: #ffa600;
+}
+
+/* Estilos para el rango de 51-75 */
+.health-lightgreen {
+  color: #29b929;
+}
+
+/* Estilos para el rango de 76-100 */
+.health-green {
+  color: #048504;
+}

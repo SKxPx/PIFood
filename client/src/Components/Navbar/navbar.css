@@ -1,0 +1,27 @@
+.nav-cont {
+  height: 4rem;
+  display: flex;
+}
+
+.img-cont img {
+  width: 3rem;
+  margin: 10px;
+}
+
+.link-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  align-items: center;
+  margin-left: 40.5%;
+}
+.link-cont a {
+  color: black; 
+  text-decoration: none; 
+  transition: color 0.3s, border-bottom 0.3s; 
+}
+
+.link-cont a:hover {
+  color: #ff9900; 
+  border-bottom: 2px solid #ff9900; 
+}

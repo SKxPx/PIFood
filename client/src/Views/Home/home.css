@@ -1,0 +1,54 @@
+* {
+  font-family: "Indie Flower", cursive; 
+  color: #0e0c0c;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  font-family: "Indie Flower", cursive; 
+  font-size: 50px; 
+  margin-bottom: 16px; 
+  color: #e67e22;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px; 
+}
+
+.pagination-btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin: 0 4px; 
+}
+
+.pagination-btn:hover {
+  background-color: #2980b9;
+}
+
+.prev-btn {
+  border-radius: 4px 0 0 4px;
+}
+
+.next-btn {
+  border-radius: 0 4px 4px 0;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}

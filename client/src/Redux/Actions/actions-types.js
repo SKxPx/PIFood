@@ -1,0 +1,10 @@
+export const POST_RECIPE = "POST_RECIPE";
+export const GET_RECIPE = "GET_RECIPE";
+export const RECIPE_BY_NAME = "RECIPE_BY_NAME";
+export const GET_RECIPE_ID = "GET_RECIPE_ID";
+export const GET_DIETS = "GET_DIETS";
+export const SET_ORDER = "SET_ORDER";
+export const FILTER_OPTION = "FILTER_OPTION";
+export const FILTER_DIET = "FILTER_DIET";
+export const RESET = "RESET";
+export const PAGINATE = "PAGINATE";

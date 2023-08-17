@@ -1,0 +1,73 @@
+.details-container {
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+}
+
+.recipe-title {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #e67e22;
+}
+
+.recipe-image {
+    border-radius: 15px;
+  border: 2px solid #ddd; 
+  box-shadow: 0 2px 4px #04bd23;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+.view-info {
+  display: flex;
+}
+
+.recipe-info {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.diets-list {
+  list-style-type: none;
+  margin-left: 20px;
+  color: green;
+}
+
+.step-by-step {
+  margin-top: 20px;
+}
+
+.step-group {
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-top: 10px;
+}
+
+.ingredients-list {
+  list-style-type: none;
+  margin-left: 20px;
+  color: green;
+}
+
+/* Estilos para el rango de 0-25 */
+.health-red {
+    color: #ff0000;
+  }
+  
+  /* Estilos para el rango de 26-50 */
+  .health-orange {
+    color: #ffa600;
+  }
+  
+  /* Estilos para el rango de 51-75 */
+  .health-lightgreen {
+    color: #29b929;
+  }
+  
+  /* Estilos para el rango de 76-100 */
+  .health-green {
+    color: #048504;
+  }
